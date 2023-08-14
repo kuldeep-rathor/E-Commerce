@@ -1,0 +1,46 @@
+/* Add this CSS for the hover effect */
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container:hover .card-img-top {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+/* Product.module.css */
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.productCard {
+  flex: 0 0 calc(50% - 1rem);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
+
+.productCard .card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.productCard .price {
+  font-weight: bold;
+}
+
+.productCard .btn {
+  width: 100%;
+}
+.text{
+  color: white  ;
+  justify-content: center;
+}  
